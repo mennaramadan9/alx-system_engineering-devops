@@ -3,3 +3,4 @@ ls script Display the contents list of the current directory
 cd ~ script that changes the working directory to the user’s home directory
 ls -l script that Display current directory contents in a long format
 ls -la script that Display current directory contents, including hidden files (starting with .). Use the long format
+ls -aln script that list files digit only
