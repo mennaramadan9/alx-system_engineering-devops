@@ -12,3 +12,4 @@ cd - to get back to the previous dir
 ls -la . .. /boot To list all files in the current directory, the parent of the working directory, and the /boot directory
 file /tmp/iamfile to know the type of this file
 ln -s /bin/ls __ls__ to create a symbolic link
+cp -u *.html ../ copy all html files to the parent dir
