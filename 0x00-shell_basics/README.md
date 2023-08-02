@@ -5,3 +5,4 @@ ls -l script that Display current directory contents in a long format
 ls -la script that Display current directory contents, including hidden files (starting with .). Use the long format
 ls -aln script that list files digit only
 mkdir /tmp/my_first_directory Create a script that creates a directory named my_first_directory in the /tmp/ directory.
+mv /tmp/betty /tmp/my_first_directory a script that move the file
