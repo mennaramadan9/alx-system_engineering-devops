@@ -10,3 +10,4 @@ rm /tmp/my_first_directory/betty to remove a file
 rm -r /tmp/my_first_directory first dir deletion
 cd - to get back to the previous dir
 ls -la . .. /boot To list all files in the current directory, the parent of the working directory, and the /boot directory
+file /tmp/iamfile to know the type of this file
