@@ -15,3 +15,4 @@ chgrp school hello to change the group ownership
 sudo chown -R vincent:staff . to change the owner and group for all files and dir in the working dir
 sudo chown -h vincent:staff _hello to change the permission of symbolic link
 chown --from=guillaume betty hello
+nc towel.blinkenlights.nl 23 to  play the StarWars IV episode in the terminal
