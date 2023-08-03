@@ -13,3 +13,4 @@ find . -type d -exec chmod a+x {} + find all subdirectories in the current direc
 mkdir -m 751 my_dir to create a directory and give permission
 chgrp school hello to change the group ownership
 sudo chown -R vincent:staff . to change the owner and group for all files and dir in the working dir
+sudo chown -h vincent:staff _hello to change the permission of symbolic link
