@@ -7,3 +7,4 @@ chmod +x to add excute permission to the file owner
 chmod u+x,g+x,o+r to add multiple permissions
 chmod +x to add execution permission for everybody
 chmod 007 to set no permission for owner and group , all permission for others
+chmod 753 to set permission to rwxr-x-wx
