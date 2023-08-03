@@ -12,3 +12,4 @@ chmod --reference=olleh to copy the mode of this file
 find . -type d -exec chmod a+x {} + find all subdirectories in the current directory and apply execute permissions
 mkdir -m 751 my_dir to create a directory and give permission
 chgrp school hello to change the group ownership
+sudo chown -R vincent:staff . to change the owner and group for all files and dir in the working dir
