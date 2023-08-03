@@ -10,3 +10,4 @@ chmod 007 to set no permission for owner and group , all permission for others
 chmod 753 to set permission to rwxr-x-wx
 chmod --reference=olleh to copy the mode of this file
 find . -type d -exec chmod a+x {} + find all subdirectories in the current directory and apply execute permissions
+mkdir my_dir && chmod 751 my_dir to create a directory and give permission
