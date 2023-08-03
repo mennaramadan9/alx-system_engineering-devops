@@ -5,3 +5,4 @@ chown change the owner of the file
 touch create an empty file
 chmod +x to add excute permission to the file owner
 chmod u+x,g+x,o+r to add multiple permissions
+chmod +x to add execution permission for everybody
