@@ -15,4 +15,5 @@ sort | uniq -u
 grep "root"
 grep -c
 grep -A 3
-grep -v  
+grep -v
+grep '^[[:alpha:]]'  
