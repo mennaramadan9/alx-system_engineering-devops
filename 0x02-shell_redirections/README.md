@@ -11,3 +11,4 @@ tail -n 1 iacta | tee -a iacta
 find . -type f -name "*.js" -exec rm {} +
 find . -type d | wc -l
 ls -t | head -n 10
+sort | uniq -u
