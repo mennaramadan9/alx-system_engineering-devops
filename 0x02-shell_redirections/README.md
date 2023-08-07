@@ -14,4 +14,5 @@ ls -t | head -n 10
 sort | uniq -u
 grep "root"
 grep -c
-grep -A 3 
+grep -A 3
+grep -v  
