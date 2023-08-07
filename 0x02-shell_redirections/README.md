@@ -13,4 +13,5 @@ find . -type d | wc -l
 ls -t | head -n 10
 sort | uniq -u
 grep "root"
-grep -c 
+grep -c
+grep -A 3 
