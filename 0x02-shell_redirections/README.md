@@ -21,4 +21,5 @@ tr -d
 rev for reverse words
 awk -F: '{print $1, $6}' /etc/passwd | sort
 find . -empty | sed 's|.*/||'
-find . -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d '.' -f 1 | rev | LC_ALL=C sort -f 
+find . -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d '.' -f 1 | rev | LC_ALL=C sort -f
+cut -c 1 | paste -s -d ' '; echo 
