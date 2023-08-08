@@ -10,3 +10,4 @@ echo $((128 + $TRUEKNOWLEDGE))
 echo $(($POWER / $DIVIDE))
 echo $(($BREATH ** $LOVE))
 echo $((2#$BINARY))
+echo {a..z}{a..z} | tr ' ' '\n' | grep -v "oo"
