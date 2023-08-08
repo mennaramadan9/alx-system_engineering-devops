@@ -4,3 +4,4 @@ export PATH="$PATH:/action"
 echo $PATH | tr ':' '\n' | wc -l
 printenv
 set
+BEST="School"
