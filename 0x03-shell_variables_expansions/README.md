@@ -5,3 +5,4 @@ echo $PATH | tr ':' '\n' | wc -l
 printenv
 set
 BEST="School"
+export BEST="School"
