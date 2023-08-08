@@ -16,4 +16,5 @@ grep -c
 grep -A 3
 grep -v
 grep '^[[:alpha:]]'
-tr 'Ac' 'Ze' 
+tr 'Ac' 'Ze'
+tr -d 
