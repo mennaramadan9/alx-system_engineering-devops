@@ -22,4 +22,5 @@ rev for reverse words
 awk -F: '{print $1, $6}' /etc/passwd | sort
 find . -empty | sed 's|.*/||'
 find . -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d '.' -f 1 | rev | LC_ALL=C sort -f
-cut -c 1 | paste -s -d ' '; echo 
+cut -c 1 | paste -s -d ' '; echo
+awk '{print $1}' input.log | sort | uniq -c | sort -nr | head -n 11 
