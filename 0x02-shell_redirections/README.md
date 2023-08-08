@@ -19,4 +19,5 @@ grep '^[[:alpha:]]'
 tr 'Ac' 'Ze'
 tr -d
 rev for reverse words
-awk -F: '{print $1, $6}' /etc/passwd | sort 
+awk -F: '{print $1, $6}' /etc/passwd | sort
+find . -empty | sed 's|.*/||' 
