@@ -17,4 +17,5 @@ grep -A 3
 grep -v
 grep '^[[:alpha:]]'
 tr 'Ac' 'Ze'
-tr -d 
+tr -d
+rev for reverse words 
